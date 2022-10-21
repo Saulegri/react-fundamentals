@@ -1,23 +1,8 @@
 import './App.css';
+import ChildrenWithTitle from './ChildrenWithTitle.jsx';
+import {FirstReactComponent} from './FirstReactComponent.jsx';
 
-function ChildrenWithTitle({children,title}){
-  return (
-    <div>
-      <h2>{title}</h2>
-      {children}
-    </div>
-  )
-}
-
-function FirstReactComponent() {
-  return (
-    <div>
-      <p>I am new here!</p>
-    </div>
-  );
-}
-
-function App() {
+ function App() {
   return (
     <div>
       <h1>Hello world</h1>
@@ -29,5 +14,4 @@ function App() {
     </div>
   );
 }
-
-export default App
+export default App;
