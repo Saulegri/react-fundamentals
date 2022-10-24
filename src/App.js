@@ -12,7 +12,12 @@ import {ConditionalRenderingComponent} from './ConditionalRenderingComponent.jsx
       <ChildrenWithTitle title="I am title">
         I am children
       </ChildrenWithTitle>
-      <ConditionalRenderingComponent/>
+      <ConditionalRenderingComponent 
+      isBlue = {true} >
+      </ConditionalRenderingComponent>
+      <ConditionalRenderingComponent 
+      isBlue = {false} >
+      </ConditionalRenderingComponent>
     </div>
   );
 }

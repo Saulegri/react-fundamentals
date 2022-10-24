@@ -1,6 +1,6 @@
-   export const ConditionalRenderingComponent = ({ isBlue }) => {
-    return <span>
-      I am {isBlue = true && "blue"}
-      I am {isBlue && "red"}
-      </span>;
-  };
+ export const ConditionalRenderingComponent = ({ isBlue }) => {
+  if (isBlue) {
+    return <span>I am blue</span>;
+  }
+  return <span>I am red</span>;
+}
