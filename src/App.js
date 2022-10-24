@@ -11,7 +11,7 @@ import {ConditionalRenderingComponent} from './ConditionalRenderingComponent.jsx
       <FirstReactComponent />
       <ChildrenWithTitle title="I am title">
         I am children
-      </ ChildrenWithTitle>
+      </ChildrenWithTitle>
       <ConditionalRenderingComponent/>
     </div>
   );
