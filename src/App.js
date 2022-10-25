@@ -1,6 +1,7 @@
 import './App.css';
 import ChildrenWithTitle from './ChildrenWithTitle.jsx';
 import {FirstReactComponent} from './FirstReactComponent.jsx';
+import {ConditionalRenderingComponent} from './ConditionalRenderingComponent.jsx';
 
  function App() {
   return (
@@ -11,6 +12,8 @@ import {FirstReactComponent} from './FirstReactComponent.jsx';
       <ChildrenWithTitle title="I am title">
         I am children
       </ChildrenWithTitle>
+      <ConditionalRenderingComponent isBlue = {true} />
+      <ConditionalRenderingComponent isBlue = {false} />
     </div>
   );
 }
