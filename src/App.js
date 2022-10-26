@@ -1,6 +1,7 @@
 import './App.css';
 import ChildrenWithTitle from './ChildrenWithTitle.jsx';
 import {FirstReactComponent} from './FirstReactComponent.jsx';
+import {RenderingLists} from './RenderingLists.jsx';
 
  function App() {
   return (
@@ -11,6 +12,7 @@ import {FirstReactComponent} from './FirstReactComponent.jsx';
       <ChildrenWithTitle title="I am title">
         I am children
       </ChildrenWithTitle>
+      <RenderingLists/>
     </div>
   );
 }
