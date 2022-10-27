@@ -14,7 +14,7 @@ const listForRender = [
     const listItems = listForRender.map(list =>
     <li>{list.name}</li>
     );
-    const valueList = listForRender.map(list => {
+    const valueList = listForRender.filter(list=>list.value).map(list => {
         return list.value %2 ===0 ?
         <li> {list.name}</li> 
         :<div></div>
