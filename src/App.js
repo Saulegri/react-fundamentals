@@ -13,9 +13,9 @@ import {ConditionalRenderingComponent} from './ConditionalRenderingComponent.jsx
       <ChildrenWithTitle title="I am title">
         I am children
       </ChildrenWithTitle>
-      <RenderingLists/>
       <ConditionalRenderingComponent isBlue = {true} />
       <ConditionalRenderingComponent isBlue = {false} />
+      <RenderingLists/>
     </div>
   );
 }
