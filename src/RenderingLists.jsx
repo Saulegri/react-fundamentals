@@ -14,11 +14,9 @@ const listForRender = [
     const listItems = listForRender.map(list =>
     <li>{list.name}</li>
     );
-    const valueList = listForRender.filter(list=>list.value !== 0 ).map(list => {
-        return list.value %2 ===0 ?
-        <li> {list.name}</li> 
-        :<div></div>
-  });
+    const valueList = listForRender.filter(list=> list.value %2 ===0 ).map(list => {
+      return <li> {list.name}</li> 
+});
     return(
     <section>
     <h2>Full list:</h2>
