@@ -1,22 +1,10 @@
 import './App.css';
-import ChildrenWithTitle from './ChildrenWithTitle.jsx';
-import {FirstReactComponent} from './FirstReactComponent.jsx';
-import {RenderingLists} from './RenderingLists.jsx';
-import {ConditionalRenderingComponent} from './ConditionalRenderingComponent.jsx';
+import {StatefulComponent34} from './StatefulComponent34.jsx';
 
- function App() {
+function App() {
   return (
-    <div>
-      <h1>Hello world</h1>
-      <p>You look beautiful</p>
-      <FirstReactComponent />
-      <ChildrenWithTitle title="I am title">
-        I am children
-      </ChildrenWithTitle>
-      <ConditionalRenderingComponent isBlue = {true} />
-      <ConditionalRenderingComponent isBlue = {false} />
-      <RenderingLists/>
-    </div>
+    <StatefulComponent34 />
   );
 }
+
 export default App;
