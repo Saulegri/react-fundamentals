@@ -3,10 +3,10 @@ import React, {useState} from 'react';
 export function StatefulComponent34(){
     const[count,setCount]=useState(0);
 
-function Increment(){
+function increment(){
    setCount(count +1);
 } 
-function Decrement(){
+function decrement(){
     if(count>0){
         setCount(count -1);
     }
@@ -14,8 +14,8 @@ function Decrement(){
 return(
 
 <div>
-      <button onClick = {Increment}> Increment</button>
-      <button onClick = {Decrement}>Decrement</button>
+      <button onClick = {increment}> Increment</button>
+      <button onClick = {decrement}>Decrement</button>
       <p>
         <span>Result:{count} </span>
       </p>
